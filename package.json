@@ -1,6 +1,6 @@
 {
   "name": "tdd-example-express",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": false,
   "description": "Getting started with TDD for expressjs",
   "engines": {
