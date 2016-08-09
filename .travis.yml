@@ -16,7 +16,7 @@ before_install:
 - npm install
 - npm install -g mocha
 script:
-- mocha /test/spec/demo.spec.js
+- mocha ./test/spec/demo.spec.js
 branches:
   only:
   - master
