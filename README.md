@@ -4,13 +4,11 @@
 
 [喝杯 Mocha 輕鬆打造 Node.js 的 TDD 生產線](https://blog.ivanwei.co/2016/07/25/2016-07-25-getting-started-with-expressjs/ '喝杯 Mocha 輕鬆打造 Node.js 的 TDD 生產線')
 
-## 下載 Demo
+## How to start
 
-`git clone https://github.com/IvanWei/tdd-example-express.git`
-
-## 執行 Demo
-
-`mocha test/spec/demo.spec.js`
+1. `git clone https://github.com/IvanWei/tdd-example-express.git`
+2. `npm intall` or `yarn install`
+3. `npm test`
 
 ## 實際畫面
 
