@@ -1,12 +1,5 @@
 version: 2
 jobs:
-  node-4-lts:
-    docker:
-      - image: circleci/node:4
-    steps:
-      - checkout
-      - run: npm install
-      - run: npm test
   node-6-lts:
     docker:
       - image: circleci/node:6
@@ -21,16 +14,9 @@ jobs:
       - checkout
       - run: npm install
       - run: npm test
-  node-9:
-    docker:
-      - image: circleci/node:9
-    steps:
-      - checkout
-      - run: npm install
-      - run: npm test
 workflows:
   version: 2
-  one_and_two:
+  testing:
     jobs:
       - node-4-lts
       - node-6-lts
